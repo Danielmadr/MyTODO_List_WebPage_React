@@ -2,12 +2,14 @@ import React from "react";
 import { Header } from "./components/Header/Header";
 
 import "./styles/global.css";
+import { Tasks } from "./components/Task/Task";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
-    </div>
+      <Tasks />
+    </>
   );
 }
 
